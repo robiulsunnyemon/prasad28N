@@ -1,0 +1,8 @@
+from enum import Enum
+
+class UserRole(Enum):
+    ADMIN = "ADMIN"
+    CUSTOMER = "CUSTOMER"
+    OPERATOR = "OPERATOR"
+    FIELD_AGENT = "FIELD_AGENT"
+    MARKETING_OPERATOR = "MARKETING_OPERATOR"
