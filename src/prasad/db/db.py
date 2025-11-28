@@ -1,9 +1,9 @@
 from dotenv import load_dotenv
 from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
 from beanie import init_beanie
-from prasad.auth.model.user import UserModel
+from src.prasad.auth.model.user import UserModel
 import os
-from prasad.images.model.image_model import ImageModel
+from src.prasad.images.model.image_model import ImageModel
 
 
 

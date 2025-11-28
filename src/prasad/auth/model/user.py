@@ -2,9 +2,9 @@ from beanie import Document
 from pydantic import EmailStr, Field
 import uuid
 from datetime import datetime, timezone
-from prasad.utils.user_role import UserRole
-from prasad.utils.account_status import AccountStatus
-from prasad.utils.otp_status import OTPStatus
+from src.prasad.utils.user_role import UserRole
+from src.prasad.utils.account_status import AccountStatus
+from src.prasad.utils.otp_status import OTPStatus
 
 class UserModel(Document):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()), alias="_id")

@@ -1,15 +1,15 @@
 from fastapi import APIRouter, HTTPException,status,Depends
 from fastapi.security import OAuth2PasswordRequestForm
-from prasad.auth.model.user import UserModel
-from prasad.auth.schemas.otp_verify import UserOTPVerify
-from prasad.auth.schemas.user import UserCreate
-from prasad.utils.get_hashed_password import get_hashed_password,verify_password
-from prasad.utils.otp_generate import generate_otp
-from prasad.utils.email_config import send_otp, SendOtpModel
-from prasad.utils.token_generation import create_access_token
-from prasad.utils.user_role import UserRole
-from prasad.utils.otp_status import OTPStatus
-from prasad.utils.account_status import AccountStatus
+from src.prasad.auth.model.user import UserModel
+from src.prasad.auth.schemas.otp_verify import UserOTPVerify
+from src.prasad.auth.schemas.user import UserCreate
+from src.prasad.utils.get_hashed_password import get_hashed_password,verify_password
+from src.prasad.utils.otp_generate import generate_otp
+from src.prasad.utils.email_config import send_otp, SendOtpModel
+from src.prasad.utils.token_generation import create_access_token
+from src.prasad.utils.user_role import UserRole
+from src.prasad.utils.otp_status import OTPStatus
+from src.prasad.utils.account_status import AccountStatus
 
 
 

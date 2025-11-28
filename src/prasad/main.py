@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from prasad.auth.routers.authentication import router as auth_router
+from src.prasad.auth.routers.authentication import router as auth_router
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from prasad.db.db import init_db, drop_user_collection
+from src.prasad.db.db import init_db, drop_user_collection
 
 STATIC_DIR = "static"
 

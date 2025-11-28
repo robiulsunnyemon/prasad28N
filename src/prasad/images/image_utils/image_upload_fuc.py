@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File,status,Request
 import os
 import shutil
-from prasad.images.model.image_model import ImageModel
+from src.prasad.images.model.image_model import ImageModel
 
 router = APIRouter(prefix="/images", tags=["images"])
 
