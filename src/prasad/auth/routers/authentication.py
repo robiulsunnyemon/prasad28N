@@ -30,7 +30,7 @@ async def register_user_customer(user: UserCreate):
     new_user = UserModel(
         email=user.email,
         password=hashed_password,
-        account_status=AccountStatus.NOT_VERIFIED,
+        account_status=AccountStatus.ACTIVE,
         role=UserRole.CUSTOMER,
         otp_status=OTPStatus.NOT_VERIFIED,
         otp=otp

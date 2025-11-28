@@ -9,8 +9,8 @@ from src.prasad.images.model.image_model import ImageModel
 
 load_dotenv()
 
-MONGO_DETAILS = os.getenv("MONGO_URI", "mongodb://localhost:27017/poetry_prasad")
-DB_NAME = os.getenv("DATABASE_NAME", "poetry_prasad")
+MONGO_DETAILS = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
+DB_NAME = os.getenv("DATABASE_NAME", "prasad28n")
 
 
 

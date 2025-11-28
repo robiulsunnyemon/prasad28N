@@ -20,7 +20,8 @@ dependencies = [
     "loadenv (>=0.1.1,<0.2.0)",
     "dotenv (>=0.9.9,<0.10.0)",
     "aiosmtplib (>=5.0.0,<6.0.0)",
-    "python-multipart (>=0.0.20,<0.0.21)"
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "argon2-cffi (>=25.1.0,<26.0.0)"
 ]
 
 [tool.poetry]
